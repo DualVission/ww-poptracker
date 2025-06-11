@@ -2,14 +2,14 @@
   {
     "name": "Dungeons",
     "type": "toggle",
-    "img": "images/items/bigkey2.png",
+    "img": "images/items/settings/dungeons.png",
     "codes": "dungeons,dungeons_on",
     "initial_active_state": true
   },
   {
     "name": "Tingle Chests",
     "type": "toggle",
-    "img": "images/items/item31.png",
+    "img": "images/items/tinglestatue.png",
     "codes": "tinglechests,tinglechests_on",
     "initial_active_state": true
   },
@@ -20,11 +20,12 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/items/item7_off.png",
+        "img": "images/items/tingletuner.png",
+        "img_mods": "@disabled",
         "codes": "tunerlogic,tunerlogic_off"
       },
       {
-        "img": "images/items/item7.png",
+        "img": "images/items/tingletuner.png",
         "codes": "tunerlogic,tunerlogic_on",
         "inherit_codes": false
       }
@@ -33,105 +34,105 @@
   {
     "name": "Dungeon Secrets",
     "type": "toggle",
-    "img": "images/items/pot.png",
+    "img": "images/items/settings/dungeon_secrets.png",
     "codes": "secretpot,secretpot_on",
     "initial_active_state": true
   },
   {
     "name": "Puzzle Secret Caves",
     "type": "toggle",
-    "img": "images/items/item24.png",
+    "img": "images/items/cabanadeed.png",
     "codes": "puzzlecaves,puzzlecaves_on",
     "initial_active_state": true
   },
   {
     "name": "Combat Secret Caves",
     "type": "toggle",
-    "img": "images/items/item21.png",
+    "img": "images/items/sword_hero.png",
     "codes": "combat,combat_on",
     "initial_active_state": true
   },
   {
     "name": "Savage Labyrinth",
     "type": "toggle",
-    "img": "images/items/item27.png",
+    "img": "images/items/heroscharm.png",
     "codes": "labyrinth,labyrinth_on",
     "initial_active_state": true
   },
   {
     "name": "Great Fairies",
     "type": "toggle",
-    "img": "images/items/greatfairy.png",
+    "img": "images/items/settings/greatfairy.png",
     "codes": "fairies,fairies_on",
     "initial_active_state": true
   },
   {
     "name": "Short Sidequests",
     "type": "toggle",
-    "img": "images/items/item8.png",
+    "img": "images/items/pictobox_standard.png",
     "codes": "shortsq,shortsq_on",
     "initial_active_state": true
   },
   {
     "name": "Long Sidequests",
     "type": "toggle",
-    "img": "images/items/item8_2.png",
+    "img": "images/items/pictobox_color.png",
     "codes": "longsq,longsq_on",
     "initial_active_state": true
   },
   {
     "name": "Spoils Trading",
     "type": "toggle",
-    "img": "images/items/item4.png",
+    "img": "images/items/spoilsbag.png",
     "codes": "spoilssq,spoilssq_on",
     "initial_active_state": true
   },
   {
     "name": "Minigames",
     "type": "toggle",
-    "img": "images/items/item18.png",
+    "img": "images/items/deliverybag.png", // This is delivery bag? Why?
     "codes": "minigames,minigames_on",
     "initial_active_state": true
   },
   {
     "name": "Battlesquid Minigame",
     "type": "toggle",
-    "img": "images/items/sploosh.png",
+    "img": "images/items/settings/sploosh.png",
     "codes": "sploosh,sploosh_on",
     "initial_active_state": true
   },
   {
     "name": "Free Gifts",
     "type": "toggle",
-    "img": "images/items/tingle.png",
+    "img": "images/items/settings/tingle.png",
     "codes": "gifts,gifts_on",
     "initial_active_state": true
   },
   {
     "name": "Mail",
     "type": "toggle",
-    "img": "images/items/mail.png",
+    "img": "images/items/settings/mail.png",
     "codes": "mail,mail_on",
     "initial_active_state": true
   },
   {
     "name": "Lookout Platforms and Rafts",
     "type": "toggle",
-    "img": "images/items/lookout.png",
+    "img": "images/items/settings/lookout.png",
     "codes": "lookouts,lookouts_on",
     "initial_active_state": true
   },
   {
     "name": "Submarines",
     "type": "toggle",
-    "img": "images/items/submarine.png",
+    "img": "images/items/settings/submarine.png",
     "codes": "submarines,submarines_on",
     "initial_active_state": true
   },
   {
     "name": "Eye Reef Chests",
     "type": "toggle",
-    "img": "images/items/reef.png",
+    "img": "images/items/settings/reef.png",
     "codes": "reefs,reefs_on",
     "initial_active_state": true
   },
@@ -145,14 +146,14 @@
   {
     "name": "Sunken Treasure (From Triforce Charts)",
     "type": "toggle",
-    "img": "images/items/chart2.png",
+    "img": "images/items/chart_triforce.png",
     "codes": "triforcesalvage,triforcesalvage_on",
     "initial_active_state": true
   },
   {
     "name": "Sunken Treasure (From Treasure Charts)",
     "type": "toggle",
-    "img": "images/items/chart1.png",
+    "img": "images/items/chart_treasure.png",
     "codes": "treasuresalvage,treasuresalvage_on",
     "initial_active_state": true
   },
@@ -166,14 +167,14 @@
   {
     "name": "Island Puzzles",
     "type": "toggle",
-    "img": "images/items/item11.png",
+    "img": "images/items/baitbag.png",
     "codes": "islandpuzzles,islandpuzzles_on",
     "initial_active_state": true
   },
   {
     "name": "Miscellaneous",
     "type": "toggle",
-    "img": "images/items/item23.png",
+    "img": "images/items/chart_ghostship.png",
     "codes": "misc,misc_on",
     "initial_active_state": true
   },
@@ -252,23 +253,23 @@
       {
         "name": "Sword Mode - Start with Sword",
         "codes": "tww_outside_swordless_mode",
-        "img": "images/items/item21.png"
+        "img": "images/items/sword_hero.png"
       },
       {
         "name": "Sword Mode - No Starting Sword",
-        "img": "images/items/item21.png",
+        "img": "images/items/sword_hero.png",
         "img_mods": "@disabled"
       },
       {
         "name": "Sword Mode - Swords Optional",
-        "img": "images/items/item20.png",
-        "img_mods": "overlay|images/items/item21.png|@disabled",
+        "img": "images/items/skullhammer.png",
+        "img_mods": "overlay|images/items/sword_hero.png|@disabled",
         "inherit_codes": false,
         "codes": "tww_in_swordless_mode"
       },
       {
         "name": "Sword Mode - Swordless",
-        "img": "images/items/item20.png",
+        "img": "images/items/skullhammer.png",
         "inherit_codes": false,
         "codes": "tww_in_swordless_mode"
       }
@@ -284,37 +285,37 @@
   {
     "name": "Swift Sail Changes Wind",
     "type": "toggle",
-    "img": "images/items/item1.png",
+    "img": "images/items/sail_swift.png",
     "codes": "swift_sail"
   },
   {
     "name": "Show Swift Sail Sequence Breaks",
     "type": "toggle",
-    "img": "images/items/item1.png",
+    "img": "images/items/sail_swift.png",
     "codes": "sequence_break_swift_sail"
   },
   {
     "name": "Show Ballad of Gales Sequence Breaks",
     "type": "toggle",
-    "img": "images/items/song1.png",
+    "img": "images/items/balladofgales.png",
     "codes": "sequence_break_ballad"
   },
   {
     "name": "Show Song of Passing Sequence Breaks",
     "type": "toggle",
-    "img": "images/items/song5.png",
+    "img": "images/items/songofpassing.png",
     "codes": "sequence_break_passing"
   },
   {
     "name": "Show Spoils without Grappling Hook Sequence Breaks",
     "type": "toggle",
-    "img": "images/items/item3.png",
+    "img": "images/items/grapple.png",
     "codes": "sequence_break_spoils_grapple"
   },
   {
     "name": "Show Other Sequence Breaks",
     "type": "toggle",
-    "img": "images/items/item13.png",
+    "img": "images/items/bombs.png",
     "codes": "sequence_break_other"
   },
   {
@@ -327,13 +328,13 @@
   {
     "name": "Only Map Switch To Dungeons",
     "type": "toggle",
-    "img": "images/items/bigkey2.png",
+    "img": "images/items/settings/dungeons.png", // perhaps this is changed to a higher res of the dungeon map?
     "codes": "setting_map_tracking_dungeons_only"
   },
   {
     "name": "Load Checked Entrances From Archipelago",
     "type": "toggle",
-    "img": "images/items/item0.png",
+    "img": "images/items/telescope.png",
     "codes": "setting_load_exit_assignments_from_ap",
     "initial_active_state": true
   },
