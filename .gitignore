@@ -6,4 +6,5 @@
 *.sublime*
 
 # Zip filename used when developing
-/ww-poptracker.zip
+*/ww-poptracker.zip
+*.lnk

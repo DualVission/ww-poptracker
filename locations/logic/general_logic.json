@@ -6,7 +6,8 @@
         "name": "Normal Logic Precision",
         "access_rules": [
           "tww_precise_1",
-          "setting_show_higher_logic_next_only_enabled, [tww_precise_1]"
+          "setting_show_higher_logic_next_only_enabled, [tww_precise_1]",
+          "setting_show_higher_logic_next_only_disabled, [tww_precise_1]"
         ]
       },
       {
@@ -29,7 +30,8 @@
         "name": "Normal Logic Obscurity",
         "access_rules": [
           "tww_obscure_1",
-          "setting_show_higher_logic_next_only_enabled, [tww_obscure_1]"
+          "setting_show_higher_logic_next_only_enabled, [tww_obscure_1]",
+          "setting_show_higher_logic_next_only_disabled, [tww_obscure_1]"
         ]
       },
       {

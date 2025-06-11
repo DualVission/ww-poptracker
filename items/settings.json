@@ -188,25 +188,25 @@
       {
         "name": "Logic Obscurity - None",
         "img": "images/settings/logic_none.png",
-        "img_mods": "overlay|images/items/settings/logic_obscure.png",
+        "img_mods": "overlay|images/settings/logic_obscure.png",
         "codes": "tww_obscure_0"
       },
       {
         "name": "Logic Obscurity - Normal",
         "img": "images/settings/logic_normal.png",
-        "img_mods": "overlay|images/items/settings/logic_obscure.png",
+        "img_mods": "overlay|images/settings/logic_obscure.png",
         "codes": "tww_obscure_1"
       },
       {
         "name": "Logic Obscurity - Hard",
         "img": "images/settings/logic_hard.png",
-        "img_mods": "overlay|images/items/settings/logic_obscure.png",
+        "img_mods": "overlay|images/settings/logic_obscure.png",
         "codes": "tww_obscure_2"
       },
       {
         "name": "Logic Obscurity - Very Hard",
         "img": "images/settings/logic_very_hard.png",
-        "img_mods": "overlay|images/items/settings/logic_obscure.png",
+        "img_mods": "overlay|images/settings/logic_obscure.png",
         "codes": "tww_obscure_3"
       }
     ]
@@ -221,25 +221,25 @@
       {
         "name": "Logic Precision - None",
         "img": "images/settings/logic_none.png",
-        "img_mods": "overlay|images/items/settings/logic_precise.png",
+        "img_mods": "overlay|images/settings/logic_precise.png",
         "codes": "tww_precise_0"
       },
       {
         "name": "Logic Precision - Normal",
         "img": "images/settings/logic_normal.png",
-        "img_mods": "overlay|images/items/settings/logic_precise.png",
+        "img_mods": "overlay|images/settings/logic_precise.png",
         "codes": "tww_precise_1"
       },
       {
         "name": "Logic Precision - Hard",
         "img": "images/settings/logic_hard.png",
-        "img_mods": "overlay|images/items/settings/logic_precise.png",
+        "img_mods": "overlay|images/settings/logic_precise.png",
         "codes": "tww_precise_2"
       },
       {
         "name": "Logic Precision - Very Hard",
         "img": "images/settings/logic_very_hard.png",
-        "img_mods": "overlay|images/items/settings/logic_precise.png",
+        "img_mods": "overlay|images/settings/logic_precise.png",
         "codes": "tww_precise_3"
       }
     ]
@@ -347,13 +347,13 @@
   {
     "name": "Show Spoils without Grappling Hook Sequence Breaks",
     "type": "toggle",
-    "img": "images/settings/grapple.png",
+    "img": "images/settings/seq_spoils.png",
     "codes": "sequence_break_spoils_grapple"
   },
   {
     "name": "Show Other Sequence Breaks",
     "type": "toggle",
-    "img": "images/settings/bombs.png",
+    "img": "images/settings/seq_other.png",
     "codes": "sequence_break_other"
   },
   {

@@ -1,8 +1,8 @@
 [
   {
     "name": "Forbidden Woods",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "visibility_rules": [
       "dungeons_on, required_bosses_disabled",
       "dungeons_on, required_bosses_fw_required"
@@ -17,8 +17,8 @@
     "sections": [
       {
         "name": "First Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Exit Logic/Forbidden Woods"
         ]
@@ -32,8 +32,8 @@
       },
       {
         "name": "Climb to Top Using Boko Baba Bulbs",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Forbidden Woods",
@@ -74,8 +74,8 @@
       },
       {
         "name": "Vine Maze Left Chest",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Forbidden Woods",
@@ -133,8 +133,8 @@
       },
       {
         "name": "Mothula Miniboss Room",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Exit Logic/Forbidden Woods Miniboss Arena, @Macros/can_defeat_winged_mothulas"
         ]
@@ -176,8 +176,8 @@
       },
       {
         "name": "Tingle Statue Chest",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Forbidden Woods",
@@ -193,8 +193,8 @@
       },
       {
         "name": "Chest in Locked Tree Trunk",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Forbidden Woods",
@@ -207,8 +207,8 @@
       },
       {
         "name": "Big Key Chest",
-        "chest_unopened_img": "images/items/chest_bigkey.png",
-        "chest_opened_img": "images/items/chest_bigkey_gray.png",
+        "chest_unopened_img": "images/chests/chest_bigkey.png",
+        "chest_opened_img": "images/chests/chest_bigkey_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Forbidden Woods",
@@ -244,7 +244,7 @@
       },
       {
         "name": "Kalle Demos Heart Container",
-        "chest_unopened_img": "images/items/heart2.png",
+        "chest_unopened_img": "images/items/heart_container.png",
         "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Kalle Demos Boss Arena, @Macros/can_defeat_kalle_demos"
@@ -254,8 +254,8 @@
   },
   {
     "name": "Forbidden Woods Dungeon",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "children": [
       {
         "name": "First Room",

@@ -117,37 +117,39 @@
     {
         "name": "Wind's Requiem",
         "type": "toggle",
-        "img": "images/items/windsrequiem.png",
+        "img": "images/items/songs/windsrequiem.png",
         "codes": "requiem"
     },
     {
         "name": "Ballad of Gales",
         "type": "toggle",
-        "img": "images/items/balladofgales.png",
+        "img": "images/items/songs/balladofgales.png",
         "codes": "ballad"
     },
     {
         "name": "Command Melody",
         "type": "toggle",
-        "img": "images/items/commandmelody.png",
+        "img": "images/items/songs/commandmelody.png",
         "codes": "melody"
     },
     {
         "name": "Earth God's Lyric",
         "type": "toggle",
-        "img": "images/items/earthgodslyric.png",
+        "disabled_img": "images/items/songs/earthgodslyric.png",
+        "img": "images/items/songs/earthgodslyric_harp.png",
         "codes": "lyric"
     },
     {
         "name": "Wind God's Aria",
         "type": "toggle",
-        "img": "images/items/windgodsaria.png",
+        "disabled_img": "images/items/songs/windgodsaria.png",
+        "img": "images/items/songs/windgodsaria_violin.png",
         "codes": "aria"
     },
     {
         "name": "Song of Passing",
         "type": "toggle",
-        "img": "images/items/songofpassing.png",
+        "img": "images/items/songs/songofpassing.png",
         "codes": "passing"
     },
     {

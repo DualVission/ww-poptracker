@@ -1,8 +1,8 @@
 [
   {
     "name": "Tower of the Gods",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "visibility_rules": [
       "dungeons_on, required_bosses_disabled",
       "dungeons_on, required_bosses_totg_required"
@@ -91,8 +91,8 @@
       },
       {
         "name": "Darknut Miniboss Room",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Exit Logic/Tower of the Gods Miniboss Arena, @Macros/can_defeat_darknuts"
         ]
@@ -122,15 +122,15 @@
       },
       {
         "name": "Big Key Chest",
-        "chest_unopened_img": "images/items/chest_bigkey.png",
-        "chest_opened_img": "images/items/chest_bigkey_gray.png",
+        "chest_unopened_img": "images/chests/chest_bigkey.png",
+        "chest_opened_img": "images/chests/chest_bigkey_gray.png",
         "access_rules": [
           "@Macros/can_reach_tower_of_the_gods_third_floor"
         ]
       },
       {
         "name": "Gohdan Heart Container",
-        "chest_unopened_img": "images/items/heart2.png",
+        "chest_unopened_img": "images/items/heart_container.png",
         "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Gohdan Boss Arena, @Macros/can_defeat_gohdan"
@@ -140,8 +140,8 @@
   },
   {
     "name": "Tower of the Gods Dungeon",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "access_rules": [
       "@Exit Logic/Tower of the Gods"
     ],
