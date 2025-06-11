@@ -179,7 +179,7 @@
       {
         "name": "Gohma Heart Container",
         "chest_unopened_img": "images/items/heart2.png",
-        "chest_opened_img": "images/items/heart2_gray.png",
+        "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Gohma Boss Arena, @Macros/can_defeat_gohma"
         ]

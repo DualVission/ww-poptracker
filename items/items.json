@@ -8,18 +8,8 @@
     {
         "name": "Swift Sail",
         "type": "progressive",
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages" : [
-            {
-                "img": "images/items/sail.png",
-                "codes": "sail"
-            },
-            {
-                "img": "images/items/sail_swift.png",
-                "codes": "sail"
-            }
-        ]
+        "img": "images/items/sail_swift.png",
+        "codes": "sail"
     },
     {
         "name": "Wind Waker",
@@ -114,6 +104,7 @@
     {
         "name": "Hurricane Spin",
         "type": "toggle",
+        "img": "images/items/hurricane.png",
         "codes": "hurricane"
     },
     {

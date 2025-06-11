@@ -1,9 +1,9 @@
 ﻿{
     "name": "Wind Waker AP Tracker",
     "game_name": "The Legend of Zelda: The Wind Waker",
-    "package_version": "1.1.0",
+    "package_version": "1.1.1",
     "package_uid": "ap_windwaker",
-    "author": "Mysteryem",
+    "author": "Mysteryem, DualVission",
     "original_author": "Ouro",
     "variants": {
         "standard": {
@@ -16,6 +16,6 @@
         }
     },
     "min_poptracker_version": "0.31.0",
-    "target_poptracker_version": "0.31.0",
+    "target_poptracker_version": "0.32.0",
     "versions_url": "https://raw.githubusercontent.com/Mysteryem/ww-poptracker/main/versions.json"
 }

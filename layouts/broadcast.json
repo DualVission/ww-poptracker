@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "layout",
-                        "key": "item_grid"
+                        "key": "broadcast_item_grid"
                     }
                 ]
             }
