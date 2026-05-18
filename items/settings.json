@@ -357,6 +357,12 @@
     "codes": "sequence_break_other"
   },
   {
+    "name": "Show Tingle Tuner Sequence Breaks",
+    "type": "toggle",
+    "img": "images/items/item7.png",
+    "codes": "sequence_break_tingle_tuner"
+  },
+  {
     "name": "Automatic Map Switching",
     "type": "toggle",
     "img": "images/settings/map_switch.png",
@@ -374,6 +380,13 @@
     "type": "toggle",
     "img": "images/settings/archipelago.png",
     "codes": "setting_load_exit_assignments_from_ap",
+    "initial_active_state": true
+  },
+  {
+    "name": "Show Precise Sea Locations",
+    "type": "toggle",
+    "img": "images/items/chart1.png",
+    "codes": "setting_show_precise_sea_locations",
     "initial_active_state": true
   },
   {

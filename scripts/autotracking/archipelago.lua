@@ -226,18 +226,31 @@ function setNonRandomizedEntrancesFromSlotData(slot_data, banned_dungeons)
     end
 end
 
+local HINTS_DATASTORAGE_KEY
+local HINT_ENUM_VALUE_TO_HIGHLIGHT = {
+    [0] = Highlight.Unspecified,
+    [10] = Highlight.NoPriority,
+    [20] = Highlight.Avoid,
+    [30] = Highlight.Priority,
+    [40] = Highlight.None,
+}
+
 function onClear(slot_data)
     -- Reset the last activated tab from map tracking.
     _last_activated_tab = ""
 
     -- Reset the goal location
-    local goal_location = Tracker:FindObjectForCode("@The Great Sea/Hyrule/Defeat Ganondorf (Goal)")
+    local goal_location = Tracker:FindObjectForCode("@The Great Sea/Tower of the Gods Sector/Hyrule/Defeat Ganondorf (Goal)")
     goal_location.AvailableChestCount = goal_location.ChestCount
 
     -- Get and subscribe to changes in the player's status to track goal completion
     goal_status_key = string.format(GOAL_STATUS_FORMAT, Archipelago.TeamNumber, Archipelago.PlayerNumber)
-    Archipelago:Get({goal_status_key})
-    Archipelago:SetNotify({goal_status_key})
+    -- Get and subscribe to changes to the player's hints.
+    HINTS_DATASTORAGE_KEY = string.format("_read_hints_%i_%i", Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    -- Send the requests to the AP server.
+    local datastorage_keys = {goal_status_key, HINTS_DATASTORAGE_KEY}
+    Archipelago:SetNotify(datastorage_keys)
+    Archipelago:Get(datastorage_keys)
 
     -- autotracking settings from YAML
     local function setFromSlotData(slot_data_key, item_code)
@@ -411,6 +424,7 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode(v)
         if obj then
             obj.AvailableChestCount = obj.ChestCount
+            obj.Highlight = Highlight.None
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onClear: could not find object for code %s", v))
         end
@@ -598,34 +612,65 @@ function onBounced(value)
     onMap(data["tww_stage_name"])
 end
 
+local function updateForStatusChange(status_value)
+    -- CLIENT_UNKNOWN = 0
+    -- CLIENT_CONNECTED = 5
+    -- CLIENT_READY = 10
+    -- CLIENT_PLAYING = 20
+    -- CLIENT_GOAL = 30
+    if status_value == 30 then
+        local goal_location = Tracker:FindObjectForCode("@The Great Sea (Deprecated)/Hyrule/Defeat Ganondorf (Goal)")
+        goal_location.AvailableChestCount = goal_location.AvailableChestCount - 1
+    else
+        print(string.format("Current goal status is %s", status_value))
+    end
+end
+
+local function updateForHintsChange(hints_value)
+    local self_player = Archipelago.PlayerNumber
+    for _, hint in ipairs(hints_value) do
+        if hint.finding_player == self_player then
+            local location_id = hint.location
+            local section_name = LOCATION_MAPPING[location_id]
+            if section_name ~= nil then
+                local section = Tracker:FindObjectForCode(section_name)
+                if section ~= nil then
+                    local highlight = HINT_ENUM_VALUE_TO_HIGHLIGHT[hint.status]
+                    if highlight ~= nil then
+                        section.Highlight = highlight
+                    else
+                        print("Error: Could not find highlight value for "..tostring(hint.status))
+                    end
+                else
+                    print("Error: Could not find section for path "..section_name)
+                end
+            else
+                print("Error: Could not find section name for location_id "..tostring(location_id))
+            end
+        end
+    end
+end
+
 -- called in response to an Archipelago:Get(key_list)
-function onRetrieved(key, new_value, old_value)
+function onRetrieved(key, value)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onRetrieved: %s", dump_table(value)))
     end
 
     if key == goal_status_key then
-        -- CLIENT_UNKNOWN = 0
-        -- CLIENT_CONNECTED = 5
-        -- CLIENT_READY = 10
-        -- CLIENT_PLAYING = 20
-        -- CLIENT_GOAL = 30
-        if new_value == 30 then
-            local goal_location = Tracker:FindObjectForCode("@The Great Sea/Hyrule/Defeat Ganondorf (Goal)")
-            goal_location.AvailableChestCount = goal_location.AvailableChestCount - 1
-        else
-            print(string.format("Current goal status is %s", new_value))
-        end
+        updateForStatusChange(value)
+    elseif key == HINTS_DATASTORAGE_KEY then
+        updateForHintsChange(value)
     elseif key == visited_stages_key and ENTRANCE_RANDO_ENABLED then
         -- If the player has not connected the AP client and visited any stages yet, the value in the server's data
         -- storage may not exist.
-        if new_value ~= nil then
+        if value ~= nil then
             local load_assignments_from_ap = Tracker:FindObjectForCode("setting_load_exit_assignments_from_ap")
             if load_assignments_from_ap.Active then
                 local function loadRetrievedExitAssignments()
                     -- The data is stored as a dictionary used as a set, so the keys are the visited stage names and the
                     -- values are all `true`.
-                    for stage_name, _ in pairs(new_value) do
+                    for stage_name, _ in pairs(value) do
                         entranceRandoAssignEntranceFromVisitedStage(stage_name, true)
                     end
                 end
@@ -638,11 +683,30 @@ function onRetrieved(key, new_value, old_value)
     end
 end
 
+-- called when a datastorage value, watched by request of Archipelago:SetNotify(key_list), is changed
+function onNotifyUpdate(key, new_value, old_value)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onNotifyUpdate: %s", dump_table(value)))
+    end
+
+    if new_value == old_value then
+        -- No change, so nothing to update.
+        return
+    end
+
+    if key == goal_status_key then
+        updateForStatusChange(new_value)
+    elseif key == HINTS_DATASTORAGE_KEY then
+        updateForHintsChange(new_value)
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddBouncedHandler("bounced handler", onBounced)
 Archipelago:AddRetrievedHandler("retrieved handler", onRetrieved)
+Archipelago:AddSetReplyHandler("setreply handler", onNotifyUpdate)
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     Archipelago:AddItemHandler("item handler", onItem)
 end
