@@ -3,9 +3,11 @@
 
 # IDE files
 /.idea
+*.sublime*
 
 # Scripts to help with development
 /.scripts
 
 # Zip filename used when developing
-/ww-poptracker.zip
+*/ww-poptracker.zip
+*.lnk

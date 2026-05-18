@@ -1,8 +1,8 @@
 [
   {
     "name": "Dragon Roost Cavern",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "visibility_rules": [
       "dungeons_on, required_bosses_disabled",
       "dungeons_on, required_bosses_drc_required"
@@ -24,8 +24,8 @@
       },
       {
         "name": "Alcove With Water Jugs",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Exit Logic/Dragon Roost Cavern, drc_small:1"
         ]
@@ -47,8 +47,8 @@
       },
       {
         "name": "Chest Across Lava Pit",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Dragon Roost Cavern",
@@ -65,8 +65,8 @@
       },
       {
         "name": "Rat Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Exit Logic/Dragon Roost Cavern, drc_small:2"
         ]
@@ -115,8 +115,8 @@
       },
       {
         "name": "Miniboss",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Exit Logic/Dragon Roost Cavern, drc_small:4"
         ]
@@ -146,8 +146,8 @@
       },
       {
         "name": "Big Key Chest",
-        "chest_unopened_img": "images/items/chest_bigkey.png",
-        "chest_opened_img": "images/items/chest_bigkey_gray.png",
+        "chest_unopened_img": "images/chests/chest_bigkey.png",
+        "chest_opened_img": "images/chests/chest_bigkey_gray.png",
         "access_rules": [
           [
             "@Macros/can_reach_dragon_roost_cavern_gaping_maw",
@@ -179,8 +179,8 @@
       },
       {
         "name": "Gohma Heart Container",
-        "chest_unopened_img": "images/items/heart2.png",
-        "chest_opened_img": "images/items/heart2_gray.png",
+        "chest_unopened_img": "images/items/heart_container.png",
+        "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Gohma Boss Arena, @Macros/can_defeat_gohma"
         ]
@@ -189,8 +189,8 @@
   },
   {
     "name": "Dragon Roost Cavern Dungeon",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "children": [
       {
         "name": "First Room",

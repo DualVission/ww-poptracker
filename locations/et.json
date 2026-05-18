@@ -1,8 +1,8 @@
 [
   {
     "name": "Earth Temple",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "visibility_rules": [
       "dungeons_on, required_bosses_disabled",
       "dungeons_on, required_bosses_et_required"
@@ -18,8 +18,8 @@
     "sections": [
       {
         "name": "Transparent Chest In Warp Pot Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Exit Logic/Earth Temple, @Macros/can_play_command_melody"
         ]
@@ -56,8 +56,8 @@
       },
       {
         "name": "Chest In Three Blocks Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Macros/can_reach_earth_temple_left_path",
@@ -85,8 +85,8 @@
       },
       {
         "name": "Stalfos Miniboss Room",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Exit Logic/Earth Temple Miniboss Arena, @Macros/can_defeat_stalfos",
           "@Exit Logic/Earth Temple Miniboss Arena, hookshot"
@@ -94,8 +94,8 @@
       },
       {
         "name": "Tingle Statue Chest",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Macros/can_reach_earth_temple_basement, @Macros/has_tingle_bombs"
         ],
@@ -114,8 +114,8 @@
       },
       {
         "name": "Kill All Floormasters in Foggy Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           [
             "@Macros/can_reach_earth_temple_redead_hub_room",
@@ -163,16 +163,16 @@
       },
       {
         "name": "Stalfos Crypt Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Macros/can_reach_earth_temple_many_mirrors_room, @Macros/can_defeat_stalfos"
         ]
       },
       {
         "name": "Big Key Chest",
-        "chest_unopened_img": "images/items/chest_bigkey.png",
-        "chest_opened_img": "images/items/chest_bigkey_gray.png",
+        "chest_unopened_img": "images/chests/chest_bigkey.png",
+        "chest_opened_img": "images/chests/chest_bigkey_gray.png",
         "access_rules": [
           [
             "@Macros/can_reach_earth_temple_many_mirrors_room",
@@ -186,8 +186,8 @@
       },
       {
         "name": "Jalhalla Heart Container",
-        "chest_unopened_img": "images/items/heart2.png",
-        "chest_opened_img": "images/items/heart2_gray.png",
+        "chest_unopened_img": "images/items/heart_container.png",
+        "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Jalhalla Boss Arena, @Macros/can_defeat_jalhalla"
         ]
@@ -196,8 +196,8 @@
   },
   {
     "name": "Earth Temple Dungeon",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "children": [
       {
         "name": "Transparent Chest In Warp Pot Room",

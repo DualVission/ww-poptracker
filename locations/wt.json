@@ -1,8 +1,8 @@
 [
   {
     "name": "Wind Temple",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "visibility_rules": [
       "dungeons_on, required_bosses_disabled",
       "dungeons_on, required_bosses_wt_required"
@@ -39,8 +39,8 @@
       },
       {
         "name": "Tingle Statue Chest",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           "@Macros/can_reach_wind_temple_kidnapping_room, @Macros/has_tingle_bombs"
         ],
@@ -70,8 +70,8 @@
       },
       {
         "name": "Big Key Chest",
-        "chest_unopened_img": "images/items/chest_bigkey.png",
-        "chest_opened_img": "images/items/chest_bigkey_gray.png",
+        "chest_unopened_img": "images/chests/chest_bigkey.png",
+        "chest_opened_img": "images/chests/chest_bigkey_gray.png",
         "access_rules": [
           [
             "@Macros/can_reach_wind_temple_kidnapping_room",
@@ -118,8 +118,8 @@
       },
       {
         "name": "Chest In Middle of Hub Room",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Macros/can_open_wind_temple_upper_giant_grate"
         ]
@@ -132,16 +132,16 @@
       },
       {
         "name": "Spike Wall Room - Destroy All Cracked Floors",
-        "chest_unopened_img": "images/items/chest_metal.png",
-        "chest_opened_img": "images/items/chest_metal_gray.png",
+        "chest_unopened_img": "images/chests/chest_metal.png",
+        "chest_opened_img": "images/chests/chest_metal_gray.png",
         "access_rules": [
           "@Macros/can_open_wind_temple_upper_giant_grate, boots"
         ]
       },
       {
         "name": "Wizzrobe Miniboss Room",
-        "chest_unopened_img": "images/items/chest_spiky.png",
-        "chest_opened_img": "images/items/chest_spiky_gray.png",
+        "chest_unopened_img": "images/chests/chest_spiky.png",
+        "chest_opened_img": "images/chests/chest_spiky_gray.png",
         "access_rules": [
           [
             "@Exit Logic/Wind Temple Miniboss Arena",
@@ -175,8 +175,8 @@
       },
       {
         "name": "Molgera Heart Container",
-        "chest_unopened_img": "images/items/heart2.png",
-        "chest_opened_img": "images/items/heart2_gray.png",
+        "chest_unopened_img": "images/items/heart_container.png",
+        "chest_opened_img": "images/items/heart_container_collected.png",
         "access_rules": [
           "@Exit Logic/Molgera Boss Arena, @Macros/can_defeat_molgera"
         ]
@@ -185,8 +185,8 @@
   },
   {
     "name": "Wind Temple Dungeon",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "access_rules": [
       "@Exit Logic/Wind Temple"
     ],

@@ -1,8 +1,8 @@
 [
   {
     "name": "Triforce Salvaging",
-    "chest_unopened_img": "images/items/chest_salvage.png",
-    "chest_opened_img": "images/items/chest_salvage_gray.png",
+    "chest_unopened_img": "images/chests/chest_salvage.png",
+    "chest_opened_img": "images/chests/chest_salvage_gray.png",
     "visibility_rules": [
       "triforcesalvage_on"
     ],
@@ -162,8 +162,8 @@
   },
   {
     "name": "Treasure Salvaging",
-    "chest_unopened_img": "images/items/chest_salvage.png",
-    "chest_opened_img": "images/items/chest_salvage_gray.png",
+    "chest_unopened_img": "images/chests/chest_salvage.png",
+    "chest_opened_img": "images/chests/chest_salvage_gray.png",
     "access_rules": [
       "grapple"
     ],
