@@ -1,8 +1,8 @@
 [
   {
     "name": "The Great Sea (Deprecated)",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "children": [
       {
         "name": "Star Island",

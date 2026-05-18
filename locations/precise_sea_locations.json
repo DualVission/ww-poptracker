@@ -1,8 +1,8 @@
 [
   {
     "name": "The Great Sea",
-    "chest_unopened_img": "images/items/chest_wood.png",
-    "chest_opened_img": "images/items/chest_wood_gray.png",
+    "chest_unopened_img": "images/chests/chest_wood.png",
+    "chest_opened_img": "images/chests/chest_wood_gray.png",
     "children": [
       {
         "name": "Star Island Sector",
@@ -11,8 +11,8 @@
             "name": "Star Island - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Star Island Secret Cave, @Macros/can_defeat_magtails"
                 ],
@@ -86,8 +86,8 @@
             "name": "Northern Fairy Island - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "visibility_rules": [
                   "submarines_on"
                 ]
@@ -113,8 +113,8 @@
             "name": "Crescent Moon Island - Chest",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "visibility_rules": [
                   "misc_on"
                 ]
@@ -136,8 +136,8 @@
             "name": "Crescent Moon Island - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_miniblins"
                 ],
@@ -176,8 +176,8 @@
               },
               {
                 "name": "Southern Lookout Platform",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_wizzrobes_at_range"
                 ]
@@ -198,8 +198,8 @@
             "name": "Seven-Star Isles - Big Octo",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_12_eye_big_octos, grapple"
                 ],
@@ -228,8 +228,8 @@
             "name": "Overlook Island - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   [
                     "@Macros/_can_reach_overlook_island_cave_darknuts",
@@ -263,8 +263,8 @@
             "name": "Four-Eye Reef - Destroy the Cannons and Gunboats",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -294,8 +294,8 @@
             "name": "Mother and Child Isles - Inside Mother Isle",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Macros/can_play_ballad_of_gales"
                 ],
@@ -438,8 +438,8 @@
             "sections": [
               {
                 "name": "Chuchu Cave - Chest",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Pawprint Isle Chuchu Cave"
                 ],
@@ -564,8 +564,8 @@
             "name": "Flight Control Platform - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   [
                     "@Macros/can_defeat_wizzrobes",
@@ -650,8 +650,8 @@
             "sections": [
               {
                 "name": "Cave",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Exit Logic/Rock Spire Isle Secret Cave"
                 ],
@@ -745,8 +745,8 @@
             "name": "Rock Spire Isle - Southeast Gunboat",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "bombs, grapple"
                 ],
@@ -799,8 +799,8 @@
             "name": "Tingle Island - Big Octo",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_12_eye_big_octos, grapple"
                 ],
@@ -881,8 +881,8 @@
             "name": "Fire Mountain - Cave - Chest",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Fire Mountain Secret Cave, @Macros/can_defeat_magtails"
                 ],
@@ -934,8 +934,8 @@
             "name": "Fire Mountain - Big Octo",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_big_octos, grapple"
                 ],
@@ -989,8 +989,8 @@
             "name": "Three-Eye Reef - Destroy the Cannons and Gunboats",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1020,8 +1020,8 @@
             "name": "Greatfish Isle - Hidden Chest",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1051,8 +1051,8 @@
             "name": "Cyclops Reef - Destroy the Cannons and Gunboats",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1102,8 +1102,8 @@
             "name": "Six-Eye Reef - Destroy the Cannons and Gunboats",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1151,8 +1151,8 @@
             "name": "Six-Eye Reef - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "visibility_rules": [
                   "submarines_on"
                 ]
@@ -1290,8 +1290,8 @@
             "sections": [
               {
                 "name": "Chest in Ring of Fire",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "_comment": [
                   "The switch can be activated out-of-logic by shooting a fire arrow near it."
                 ],
@@ -1329,8 +1329,8 @@
             "name": "Needle Rock Isle - Golden Gunboat",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "bombs, grapple"
                 ],
@@ -1359,8 +1359,8 @@
             "name": "Islet of Steel - Interior",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_play_winds_requiem"
                 ],
@@ -1413,8 +1413,8 @@
             "name": "Stone Watcher Island - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   [
                     "@Macros/_can_reach_stone_watcher_cave_darknuts",
@@ -1450,8 +1450,8 @@
               },
               {
                 "name": "Destroy the Cannons",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Macros/can_destroy_cannons"
                 ],
@@ -1481,8 +1481,8 @@
             "sections": [
               {
                 "name": "Chest at Top of Waterfall",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "hookshot",
                   "@Macros/can_fly_with_deku_leaf_outdoors"
@@ -1502,8 +1502,8 @@
               },
               {
                 "name": "Cabana Labyrinth - Upper Floor Chest",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   [
                     "@Exit Logic/Cabana Labyrinth",
@@ -1532,8 +1532,8 @@
             "name": "Private Oasis - Big Octo",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_big_octos, grapple"
                 ],
@@ -1562,8 +1562,8 @@
             "name": "Bomb Island - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Bomb Island Secret Cave, @Macros/can_stun_magtails"
                 ],
@@ -1633,8 +1633,8 @@
             "name": "Bird's Peak Rock - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Bird's Peak Rock Secret Cave, @Macros/can_play_winds_requiem"
                 ],
@@ -1674,8 +1674,8 @@
               },
               {
                 "name": "Second Chest",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png"
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png"
               }
             ],
             "map_locations": [
@@ -1694,8 +1694,8 @@
             "name": "Diamond Steppe Island - Big Octo",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_big_octos, grapple"
                 ],
@@ -1724,8 +1724,8 @@
             "name": "Five-Eye Reef - Destroy the Cannons",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/can_destroy_cannons, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1829,8 +1829,8 @@
             "sections": [
               {
                 "name": "Destroy the Northwest Cannons",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/can_destroy_cannons, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -1869,8 +1869,8 @@
             "sections": [
               {
                 "name": "Frozen Chest",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/has_fire_arrows"
                 ],
@@ -1880,8 +1880,8 @@
               },
               {
                 "name": "Cave - Chest",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "@Exit Logic/Ice Ring Isle Secret Cave"
                 ],
@@ -1937,8 +1937,8 @@
               },
               {
                 "name": "Small Island Chest",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   [
                     "@Macros/can_access_forest_haven",
@@ -1990,8 +1990,8 @@
               },
               {
                 "name": "Highest Isle",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Exit Logic/Cliff Plateau Isles Inner Cave"
                 ],
@@ -2042,8 +2042,8 @@
             "sections": [
               {
                 "name": "Play Golf",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   [
                     "@Macros/can_fan_with_deku_leaf",
@@ -2056,8 +2056,8 @@
               },
               {
                 "name": "Cave",
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   [
                     "@Exit Logic/Horseshoe Island Secret Cave",
@@ -2151,8 +2151,8 @@
               },
               {
                 "name": "Jabun's Cave",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "access_rules": [
                   "bombs"
                 ],
@@ -2253,8 +2253,8 @@
             "name": "Headstone Island - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_bombchus"
                 ],
@@ -2283,8 +2283,8 @@
             "name": "Two-Eye Reef - Destroy the Cannons and Gunboats",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   "bombs, @Macros/can_fly_with_deku_leaf_outdoors"
                 ],
@@ -2329,8 +2329,8 @@
             "name": "Two-Eye Reef - Big Octo Great Fairy",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_salvage.png",
-                "chest_opened_img": "images/items/chest_salvage_gray.png",
+                "chest_unopened_img": "images/chests/chest_salvage.png",
+                "chest_opened_img": "images/chests/chest_salvage_gray.png",
                 "access_rules": [
                   "@Macros/can_defeat_big_octos"
                 ],
@@ -2360,8 +2360,8 @@
             "sections": [
               {
                 "name": "Peak",
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "visibility_rules": [
                   "islandpuzzles_on"
                 ]
@@ -2421,8 +2421,8 @@
             "name": "Boating Course - Cave",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_metal.png",
-                "chest_opened_img": "images/items/chest_metal_gray.png",
+                "chest_unopened_img": "images/chests/chest_metal.png",
+                "chest_opened_img": "images/chests/chest_metal_gray.png",
                 "access_rules": [
                   [
                     "@Exit Logic/Boating Course Secret Cave",
@@ -2481,8 +2481,8 @@
             "name": "Five-Star Isles - Submarine",
             "sections": [
               {
-                "chest_unopened_img": "images/items/chest_spiky.png",
-                "chest_opened_img": "images/items/chest_spiky_gray.png",
+                "chest_unopened_img": "images/chests/chest_spiky.png",
+                "chest_opened_img": "images/chests/chest_spiky_gray.png",
                 "visibility_rules": [
                   "submarines_on"
                 ]
